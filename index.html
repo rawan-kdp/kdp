@@ -668,8 +668,8 @@
 <!-- HERO -->
 <section class="hero" id="home">
   <div class="bg-slideshow">
-    <div class="bg-slide active" id="slide1"></div>
-    <div class="bg-slide" id="slide2"></div>
+    <div class="bg-slide" id="slide1"></div>
+    <div class="bg-slide active" id="slide2"></div>
   </div>
   <div class="hero-overlay"></div>
   <div class="hero-grain"></div>
@@ -824,7 +824,7 @@
   document.getElementById('slide2').style.backgroundImage = 'url(' + img2 + ')';
 
   // Slideshow
-  let current = 0;
+  let current = 1;
   const slides = document.querySelectorAll('.bg-slide');
   function nextSlide() {
     slides[current].classList.remove('active');
